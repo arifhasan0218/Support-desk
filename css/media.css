@@ -1,0 +1,177 @@
+@media only screen and (max-width:576px) {
+    .container {
+        padding: 0 20px;
+    }
+    .navbar-container ul{
+        display: none;
+    }
+
+    .header .row, .faq-parent , .services .row{
+        flex-direction: column;
+    }
+    .tag {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .tag span{
+        margin-right: 10px;
+        font-size: .85rem;
+    }
+
+    .tag p {
+        margin: 0 0 0 0px;
+        font-size: .75rem;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    header p {
+        font-size: .75rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }.calling-msg {
+        width: 100%;
+        max-width: 100px;
+        top: 0;
+        display: none;
+    }
+
+    .support-msg {
+        display: none;
+    }
+
+
+
+    .calling-msg span{
+        font-size: .75rem;
+    }
+    
+
+    .calling-icons img {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+
+    .pattern-3 {
+        position: absolute;
+        top: -3%;
+        right: -15%;
+        max-width: 120px;
+    }
+    .faq-text{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .faq-text::after{
+        left: 0;
+    }
+    .faq-text h4 {
+        font-size: .875rem;
+    }
+
+    .faq-text p {
+        font-size: .75rem;
+        line-height: 1.2;
+    }
+    .team-footer {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .team-footer h2{
+        width: 100%;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .team-footer button{
+        padding: 5px 10px;
+        font-size: .75rem;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 20px 0 20px;
+        text-align: center;
+    }
+
+    .footer-col li{
+        margin: 5px 0;
+        display: block;
+    }
+
+    .footer-col a{
+        color: var(--p-text-dark);
+    }
+
+    .main-btn {
+        padding: 8px 20px;
+        background: var(--btn-gold-color);
+        color: #fff;
+        display: inline-block;
+        font-weight: var(--fw-medium-500);
+    }
+
+    .primary-btn{
+        background: #fff;
+        margin-left: 10px;
+        color: var(--p-text-dark);
+    }
+    .fa-bars {
+        display: block;
+        color: var(--p-text-dark);
+    }
+
+
+
+    .col-4 ,
+    .col-6,
+    .footer-col{
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .blogs .row{
+        flex-direction: column;
+    }
+
+
+    .section-header, .section-header-2 {
+        margin-bottom: 10px;
+        padding: 0 30px;
+        
+    }
+
+    .section-header h2, .section-header-2 h2 {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+    .section-header-2 p {
+        font-size: .75rem;
+        margin-top: 10px;
+    }
+
+    .section-header-2 a {
+        color: var(--uncommon-bg);
+        font-size: .85rem;
+        font-weight: var(--fw-bold-700);
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    
+}
+
+
+@media only screen and (min-width:576px) and (max-width:768px) {}
+
+@media only screen and (min-width:768px) and (max-width:1040px) {}
